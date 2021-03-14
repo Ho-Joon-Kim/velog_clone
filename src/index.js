@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/index.css';
-import App from './components/App';
-import Category from './components/Category';
+import Root from './client/root.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Category />
-
+    <Root />
   </React.StrictMode>,
   document.getElementById('root')
 );
