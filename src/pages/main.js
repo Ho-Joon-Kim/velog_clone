@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from '../components/Header.js';
+import MainPost from '../components/Main.js';
 
 const Main = () => {
   return (
     <div>
-start    </div>
+      <Header/>
+      <MainPost/>
+    </div>
   );
 };
 
