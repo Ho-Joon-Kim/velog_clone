@@ -1,10 +1,41 @@
+div > img{
+  width: 24px;
+  height: 24px;
+}
+
 .main{
+  width: 1376px;
+  height: 48px;
+  margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.container {
-  width: 100%;
+.sort{
+  float: left;
+  width: 112px;
   height: 48px;
-  margin-top: 24px;
+  color: rgb(52, 58, 64);
+  font-weight: bold;
+  font-size: 1.125rem;
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.sortimg{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.dropdown{
+  float: right;
+  margin-top: 12px;
+}
+
+.dropdown-list{
+  float: right;
 }
