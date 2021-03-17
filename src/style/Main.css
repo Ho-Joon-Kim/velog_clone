@@ -34,8 +34,20 @@ div > img{
 .dropdown{
   float: right;
   margin-top: 12px;
+  z-index: 5;
 }
 
 .dropdown-list{
   float: right;
+}
+
+.dropdownmenu{
+  position: absolute;
+    right: 0px;
+    top: 100%;
+    z-index: 6;
+    width: 192px;
+    height: 245.6px;
+    box-shadow: 5px 5px 5px 5px;
+
 }
