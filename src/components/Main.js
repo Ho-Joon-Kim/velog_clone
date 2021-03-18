@@ -42,7 +42,7 @@ class Main extends Component {
           </div>) : ( null )
         }
       </div>
-        </div>
+      </div>
 
     );
   }
